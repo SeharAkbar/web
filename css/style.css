@@ -1,0 +1,133 @@
+.nav{
+    background-color:lightgrey;
+    margin-top: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+  }
+  .my-logo{
+    height: 100px;
+    width: 100px;
+  }
+  .nav-options{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    align-items: center;
+  }
+  .image{
+      background-image: url("../assets/uni\ pic.jpg ");
+      height: 500px;
+      width:100%;
+      background-position: center;
+      background-attachment: fixed;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+  }
+  ul>li{
+    list-style-type: none;
+  }
+  ul>li:hover{
+   cursor: pointer;
+   text-decoration: underline;
+  }
+  .button{
+    height: 50px;
+    width:350px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+  }
+  .heading{
+    text-align: center;
+  }
+  .button:hover{
+    background-color: white;
+    color: black;
+  }
+  .container{
+    display: flex;
+    align-items: center;
+  }
+  .container1{
+    display: flex;
+    align-items: center;
+  }
+  .newspaper{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 1px solid lightblue;
+  }
+  h2{
+    column-span: all;
+  }
+.pic {
+  position: relative;
+  width: 50%;
+}
+
+.picture {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom:0;
+  left:100%;
+  right:0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.pic:hover .overlay {
+  width: 100%;
+  left:0%;
+}
+
+.write {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);}
+  
+
+
+  /* Card css */
+  .card {
+    margin: 2.5%;
+    padding: 2.5%;
+    color: #171717;
+    border-radius: 16px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:20em;
+    box-shadow: -15px 15px 10px rgba(0,0,0,0.5), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+
+.card:hover {
+    box-shadow: -15px 15px 28px #171717, 0 10px 10px #171717;
+    transform: translateY(-25px);;
+}
+
+.page{
+  display: flex;
+}
+  /* Card css */
